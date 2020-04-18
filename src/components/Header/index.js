@@ -1,15 +1,13 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 
 function Header() {
     return (
-        <div className="jumbotron jumbotron-fluid">
+        <header className="header">
             <h1>Clicky Game!</h1>
-            <p>Click any image to start the game, keep on clicking 
-                them to earn points but don't click on any more than once! </p>
-
-        </div>
-    )
+            <h2>Click on an image to earn points, but don't click on any more than once!</h2>
+        </header>
+    );
 }
 
 export default Header;
